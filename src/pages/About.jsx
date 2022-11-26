@@ -15,9 +15,6 @@ function About() {
         fetchDetails();
     }, [])
 
-    // const colors = ["#f11d28","#fd3a2d","#fe612c","#ff872c","#ffa12c"]
-
-
     const fetchDetails = async () => {
         const res = await axios.get("https://www.terriblytinytales.com/test.txt");
         setApiString(res?.data)

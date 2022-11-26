@@ -23,19 +23,20 @@ body {
 .graph-container{
   padding: 20px;
   border-bottom: 1px solid white;
-  height: fit-content;
-  width: auto;
+  height: 100vh;
+  width: 100%;
 }
 
 .text-container{
   width: 80%;
   margin:auto;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .submit-btn{
-  background-color: rgb(255, 175, 0);
-  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-size: 25px;
   border-radius: 8px;
   padding: 0.6em 1.2em;
@@ -44,6 +45,7 @@ body {
 
 .ttt-img{
   width: 200px;
+  margin: 40px;
 }
 
 .arrow-img{

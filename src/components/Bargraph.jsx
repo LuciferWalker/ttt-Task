@@ -4,8 +4,15 @@ import Chart from 'chart.js/auto';
 
 function Bargraph(props) {
     let {graphKeys, graphValues, data} = props.values
-    let colors = ['#FF4500','#FF8C00',' #FF5E0E','#FF6347','#E26310','#F5761A',
-'#FD673A','#FFA836','#ED9121']
+    
+    const generateColorArray = ()=>{
+        let colors=[]
+
+        for(var i=110;i<248;i+=6){
+            colors.push(`rgb(255,${i},0)`)
+        }
+        return colors;
+    }
     return (
         <>
             <Bar className="bar-graph"
@@ -16,7 +23,7 @@ function Bargraph(props) {
                     datasets: [{
                         label: "Word Count",
                         data: graphValues,
-                        backgroundColor: colors,
+                        backgroundColor: generateColorArray(),
                     }]
                 }}
 
