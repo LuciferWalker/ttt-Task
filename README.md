@@ -23,7 +23,7 @@
 An internship task to count and create graph to illustrate the highest 20 word count in a string.
 
 ### Deployed Link
-- https://ttt-task-66scx9ikq-luciferwalker.vercel.app/
+- [https://counter-words.vercel.app/](https://counter-words.vercel.app/)
 
 
 ### Built With
